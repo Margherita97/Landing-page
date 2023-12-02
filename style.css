@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -90,3 +89,39 @@ button {
     font-weight: bold;
     font-size: 15px;
 }
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 30px;
+    margin-bottom: 32px;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.square {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    color: grey;
+}
+
+
+
