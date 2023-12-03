@@ -6,12 +6,15 @@ body {
     flex-direction: column;
 }
 
-img {
+.placeholder {
     width: 400px;
     height: 200px;
     background-color: grey;
     display: flex;
     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
 }
 
 .header {
@@ -80,14 +83,14 @@ a {
 button {
     background-color: #3882f6;
     color: #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .sign {
-    padding: 10px 30px;
-    border-radius: 5px;
+    padding: 10px 35px;
     border: none;
-    font-weight: bold;
-    font-size: 15px;
 }
 .information {
     text-align: center;
@@ -140,4 +143,31 @@ button {
     align-self: flex-end;
     font-weight: 800;
     font-size: 50%;
+}
+
+.action {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.call {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.up {
+    border: 2px solid #F9FAF8;
+    padding: 5px 35px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
 }
